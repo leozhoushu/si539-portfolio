@@ -9,7 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    
+    <link href="css/mainstyle2.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,23 +20,68 @@
   </head>
   <body>
     <header class="container-fluid">
-      <nav class="row">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="UX/UI.html">UX/UI</a></li>
-          <li><a href="arch.html">Architecture</a></li>
-          <li><a href="contact.html">Contact</a></li>
+      <div class="row nav_bar">
+        <p class="col-md-6 ">Shu Zhou</p>
+        <ul class="col-md-6 navlist text-right" >
+            <li><a class="nav" href="index.html">Home</a></li>
+            <li><a class="nav" href="UXUI.html">UX/UI</a></li>
+            <li><a class="nav" href="arch.html">Architecture</a></li>
+            <li><a class="nav" href="about.html">About</a></li>
         </ul>
-      </nav>
-    </header>
-    <section>
-      <aside>
         
-      </aside>
+      </div>
+      <div class="row">
+         
+      </div>
+      
+    </header>
+    
+
+    <section class="container group">
+     
+      <div class="row">
+        <figure >
+          <a href="UXUI_ceremony.html">
+            <img class="thumbnail_add col-xs-12 col-md-6 col-lg-4" src="img/arch/timber.png" alt="Timber" >
+          </a>
+          <img class="thumbnail_add col-xs-12 col-md-6 col-lg-4" src="img/arch/pavilion.png" alt="Pavilion">
+          <img class="thumbnail_add col-xs-12 col-md-6 col-lg-4" src="img/arch/air.png" alt="Air">
+        </figure>
+        
+      </div>
+      
 
     </section>
 
-    <footer>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-6" id="index_about">
+          <p class="footer_title"><a class="linkhover" href="about.html">ABOUT</a></p>
+          <p class="footer_content">Hi, I am Shu, 1st year master student majored in Human-Computer Interaction in University of Michigan. I am interested in using new media to collect information and learn laws of people's behavior, as well as individualizing each design based on these laws. With a former background in architecture, I hope to implement media technology into physical space and to create novel and intuitive user experience.</p>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="footer_title">CONTACT</p>
+          <p class="footer_content">University of Michigan<br/><a class="linkhover" href="mailto:shuzhou@umich.edu?Subject=Hello" target="_top" >shuzhou@umich.edu</a><br/>(734)272-1958<br><br><br>&copy;2016 by Shu Zhou</p>
+          
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <p class="footer_title">FOLLOW</p>
+          <p class="footer_content">
+            <a calss="footer_img" href="https://www.facebook.com/shu.zhou.397">
+              <img src="img/logo_facebook.png" height="30">  
+            </a>
+            <a calss="footer_img" href="https://twitter.com/zhou_shu_?lang=en">
+              <img  src="img/logo_twitter.png" height="30">  
+            </a>
+            <a calss="footer_img" href="https://www.instagram.com/zhou_shu_/?hl=en">
+              <img  src="img/logo_ins.png" height="30">  
+            </a><br><br><br><br>
+            <a class="linkhover" href="#top">BACK TO TOP</a>
+          </p>
+
+        </div>
+      </div>
+      
       
     </footer>
 
