@@ -66,6 +66,24 @@ table {
           box-sizing: border-box;
 }
 
+@media screen and (min-width: 0px) and (max-width: 520px) {
+  .nav_bar p{
+    display: none;
+  }
+  .navlist li{
+    display: block;
+    text-align: left;
+    background-color: black;
+    width: 520px;
+    height: 30px;
+    margin-left: 0px;
+  }
+  .navlist{
+    background-color: black;
+  }
+  
+}
+
 body{
   
   background-image:url("background/backimg.jpg");
@@ -82,9 +100,36 @@ li{
   font-family:"open sans", Arial, Helvetica, sans-serif;
   height: 50px;
   line-height: 50px;
-
 }
 
+
+
+.firstline{
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-top: 130px;
+  padding-right: 150px;
+}
+.firstline2{
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-top: 130px;
+  padding-left: 150px;
+}
+.secondline{
+  font-size: 0.9em;
+  line-height: 1.5em;
+  
+  padding-right: 150px;
+}
+.secondline2{
+  font-size: 0.9em;
+  line-height: 1.5em;
+  
+  padding-left: 150px;
+}
 .navlist{
   font-weight: bold;
 
@@ -97,6 +142,25 @@ li{
   color: black;
   background-color: white;
   text-decoration: none;
+}
+
+body{
+  font-family: "open sans", Arial, Helvetica, sans-serif; 
+}
+
+#resume{
+  font-size: 1.5em;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 1px 5px;
+}
+.markkk{
+  margin-top: 30px;
+  font-size: 1.5em;
+ 
+  border-width: 2px;
+  
 }
 
 footer{
@@ -133,6 +197,11 @@ footer{
   margin-bottom: 5px;
 }
 
+.avator{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 #p1{
   border-color:  yellow;
@@ -158,3 +227,5 @@ footer{
   color: white;
   text-decoration: none;
 }
+
+
