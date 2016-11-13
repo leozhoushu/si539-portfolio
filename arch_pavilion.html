@@ -11,6 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     
     <link href="css/mainstyle2.css" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,7 +42,7 @@
      
       <div class="row ">
         <figure  class="col-xs-12 col-sm-6 " >
-          <img src="img/arch/pavilion1.png" class="img-responsive">
+          <a href="img/arch/pavilion1.png" data-lightbox="roadtrip" data-title="Pavilion in Mountain"><img src="img/arch/pavilion1.png" class="img-responsive"></a>
         </figure>
         <div class="col-xs-12 col-sm-6">
           <h3 class="firstline">Pavilion in Mountain</h3><br>
@@ -51,7 +52,7 @@
       </div>
       <div class="row ">
         <figure  class="col-xs-12 col-sm-6 col-sm-push-6 " >
-          <img src="img/arch/pavilion2.png" class="img-responsive">
+          <a href="img/arch/pavilion2.png" data-lightbox="roadtrip" data-title="Different Scenes"><img src="img/arch/pavilion2.png" class="img-responsive"></a>
         </figure>
         <div class="col-xs-12 col-sm-6 col-sm-pull-6">
           <h3 class="firstline2">Different Scenes</h3><br>
@@ -113,5 +114,15 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'alwaysShowNavOnTouchDevices': true
+      })
+    </script>
+    <script src="js/jquery.animate-color.js"></script>
+    <script src="js/myJquery.js"></script>
   </body>
 </html>

@@ -135,14 +135,16 @@ li{
 
 }
 
+
+
 .nav:link, .nav:visited{
   color: white;
 }
+
 .nav:hover{
-  color: black;
-  background-color: white;
   text-decoration: none;
 }
+
 
 body{
   font-family: "open sans", Arial, Helvetica, sans-serif; 
